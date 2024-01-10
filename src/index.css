@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .li {
+    @apply relative cursor-pointer lg:ml-0 ml-0 text-[15px] pl-[8px] px-[20px] lg:px-0 text-white font-normal tracking-[1px] hover:text-red-700;
+  }
+
+  .li a {
+    @apply flex items-center lg:text-white text-[#ffff];
+  }
+  .logo h1 {
+    font-family: "Pacifico", cursive;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  body {
+    background-color: #fff;
+  }
+}
